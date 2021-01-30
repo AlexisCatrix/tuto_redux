@@ -1,7 +1,7 @@
 import { createStore, combineReducers } from "redux";
 import { todoReducer } from "./todoReducer";
 
-//Notre createStore va nouos permettre de stocker notre/nos reducer(s)
+//Notre createStore va nous permettre de stocker notre/nos reducer(s)
 
 export default createStore(
   combineReducers({
